@@ -1,2 +1,2 @@
 # StudentMangent
-学生管理系统
+学 生管理系统
