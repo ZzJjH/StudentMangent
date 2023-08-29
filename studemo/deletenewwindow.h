@@ -17,10 +17,10 @@ public:
     ~deletenewwindow();
 
 signals:
-    void delStu(int num);//传入要删除的学生学号
+    //自定义删除信号，传入要删除的学生学号
+    void delStu(int num);
 private slots:
     void on_exit_btn_clicked();
-
     void on_del_btn_clicked();
 
 private:

@@ -22,7 +22,8 @@ public:
     double gpa;
 
 signals:
-    void addStu(QString name,int num,QString sex,QString stuclass,double gpa);//自定义信号
+    //自定义添加信号，传入一个学生所有信息
+    void addStu(QString name,int num,QString sex,QString stuclass,double gpa);
 
 private slots:
     void on_NotOkbtn_clicked();

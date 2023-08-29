@@ -19,7 +19,9 @@ public:
     Ui::modifywindow *ui;
 
 signals:
+    //自定义修改信号，传入修改前学生学号modi和修改后学生信息
     void modstu(QString name,int stunum,QString sex,QString stuclass,double gpa,QString modi);
+
 private slots:
     void on_StuNumlineEdit_textChanged(const QString &arg1);
     void on_pushButton_3_clicked();
